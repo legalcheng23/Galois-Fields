@@ -4,16 +4,16 @@
 
 1. **Install Dependencies**:
     - Ensure you have Python 3.x installed.
-    - Install NumPy, SymPy, and Matplotlib by running:
+    - Install Requirements
     ```sh
-    pip install numpy sympy matplotlib
+    pip install -r requirements.txt
     ```
 
 2. **Clone the Repository**:
     - Clone the repository to your local machine using:
     ```sh
-    git clone <repository_url>
-    cd <repository_directory>
+    git clone https://github.com/legalcheng23/Galois-Fields.git
+    cd Galois-Fields
     ```
 
 3. **Run the AES S-box Script**:
@@ -116,7 +116,7 @@
     - **Functions**:
         - `network_encode(packets, coefficients)`: Encodes multiple packets into a single packet using linear combinations of the packets with given coefficients.
         - `network_decode(encoded_packets, coefficients)`: Decodes the encoded packets back into the original packets by solving a system of linear equations. 
-             
+
     - **Example Output**:
         - The script encodes packets, simulates transmission, and decodes the packets to demonstrate the benefits of network coding.
 

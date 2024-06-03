@@ -44,4 +44,4 @@ if __name__ == "__main__":
     
     print("\nDecoded packets:")
     for packet in decoded_packets:
-        print(np.round(packet).astype(int).tolist())  # Convert to integers and round to handle numerical errors
+        print(np.round(packet).astype(int).tolist())
