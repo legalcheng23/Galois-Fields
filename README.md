@@ -74,7 +74,6 @@
         [112  62 181 102  72   3 246  14  97  53  87 185 134 193  29 158]
         [225 248 152  17 105 217 142 148 155  30 135 233 206  85  40 223]
         [140 161 137  13 191 230  66 104  65 153  45  15 176  84 187  22]]
-        ```
 2. **RSA Public Key Cryptography**:
     - **Functions**:
         - `generate_large_prime(bits=1024)`: Generates a large prime number with the specified number of bits.
@@ -88,7 +87,6 @@
         Original message: Hello, this is a test message.
         Encrypted message: 473821576237504847371738947293497229849709327383738472929389225491820398457201390281740...
         Decrypted message: Hello, this is a test message.
-        ```
 3. **Reed-Solomon Error Detection and Correction**:
     - **Functions**:
         - `rs_encode(message)`: Encodes the message using Reed-Solomon encoding.
@@ -101,7 +99,6 @@
         Encoded codeword: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 15, 12, 9, 5]
         Codeword with error: [1, 2, 2, 4, 5, 6, 7, 8, 9, 10, 11, 15, 12, 9, 5]
         Decoded message: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
-        ```
 4. **CRC for DSP**:
     - **Functions**:
         - `crc_encode(data, crc_poly)`: Encodes the data using a CRC polynomial by appending the CRC remainder to the data.
@@ -116,7 +113,6 @@
         Codeword with error: [1 0 0 1 0 0 1 0 1 0 1 1 0 0]
         Is the received codeword valid? False
         Error detected! Original codeword was: [1 0 1 1 0 0 1 0 1 0 1 1 0 0]
-        ```
 
 5. **Network Coding**:
     - **Functions**:
@@ -141,5 +137,3 @@
         [1, 0, 1, 1]
         [0, 1, 0, 1]
         [1, 1, 0, 0]
-
-                ```
