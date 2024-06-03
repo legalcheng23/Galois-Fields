@@ -106,19 +106,17 @@
 
     - **Example Output**:
         - The script encodes data, introduces an error, and then decodes the data to demonstrate error detection.
-
         ```plaintext
         Original data: [1, 0, 1, 1, 0, 0, 1, 0]
         Encoded codeword: [1 0 1 1 0 0 1 0 1 0 1 1 0 0]
         Codeword with error: [1 0 0 1 0 0 1 0 1 0 1 1 0 0]
         Is the received codeword valid? False
         Error detected! Original codeword was: [1 0 1 1 0 0 1 0 1 0 1 1 0 0]
-
 5. **Network Coding**:
     - **Functions**:
         - `network_encode(packets, coefficients)`: Encodes multiple packets into a single packet using linear combinations of the packets with given coefficients.
-        - `network_decode(encoded_packets, coefficients)`: Decodes the encoded packets back into the original packets by solving a system of linear equations.      
-
+        - `network_decode(encoded_packets, coefficients)`: Decodes the encoded packets back into the original packets by solving a system of linear equations. 
+             
     - **Example Output**:
         - The script encodes packets, simulates transmission, and decodes the packets to demonstrate the benefits of network coding.
 
